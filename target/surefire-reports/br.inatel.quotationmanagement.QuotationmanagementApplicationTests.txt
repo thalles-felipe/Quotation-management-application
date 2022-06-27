@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.inatel.quotationmanagement.QuotationmanagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.174 s - in br.inatel.quotationmanagement.QuotationmanagementApplicationTests

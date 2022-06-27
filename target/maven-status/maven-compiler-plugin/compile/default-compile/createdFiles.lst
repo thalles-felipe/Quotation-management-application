@@ -1,0 +1,12 @@
+br\inatel\quotationmanagement\controller\QuoteController.class
+br\inatel\quotationmanagement\controller\form\OperationForm.class
+br\inatel\quotationmanagement\controller\CacheController.class
+br\inatel\quotationmanagement\controller\dto\OperationDto.class
+br\inatel\quotationmanagement\model\Operation.class
+br\inatel\quotationmanagement\service\StockService.class
+br\inatel\quotationmanagement\repository\OperationRepository.class
+br\inatel\quotationmanagement\QuotationManagementApplication.class
+br\inatel\quotationmanagement\repository\QuoteRepository.class
+br\inatel\quotationmanagement\model\Quote.class
+br\inatel\quotationmanagement\config\validation\ErrorFormDto.class
+br\inatel\quotationmanagement\config\validation\ErrorValidationHandler.class

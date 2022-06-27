@@ -1,0 +1,14 @@
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\config\validation\ErrorValidationHandler.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\repository\OperationRepository.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\repository\QuoteRepository.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\model\Operation.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\model\Quote.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\swagger\SwaggerConfigurations.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\QuotationManagementApplication.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\config\validation\ErrorFormDto.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\controller\dto\OperationDto.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\controller\form\OperationForm.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\service\StockService.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\controller\CacheController.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\controller\QuoteController.java
+C:\Users\Thalles\Documents\GitHub\stock-quotation-management\src\main\java\br\inatel\quotationmanagement\model\Stock.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.inatel.quotationmanagement.controller.QuoteControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.079 s - in br.inatel.quotationmanagement.controller.QuoteControllerTest
