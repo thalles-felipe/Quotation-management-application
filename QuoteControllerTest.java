@@ -69,13 +69,13 @@ public class QuoteControllerTest {
 		quotes.put("2021-03-03", "07");
 
 		JSONObject body = new JSONObject();
-		body.put("stockId", "wrong6");
+		body.put("stockId", "wrongTestId");
 		body.put("quotes", quotes);
 		
 		mockMvc.perform(
 				MockMvcRequestBuilders.post("/quote").content(body.toString()).contentType(MediaType.APPLICATION_JSON))
 				.andExpect(MockMvcResultMatchers.status().is(404))
-				.andExpect(MockMvcResultMatchers.jsonPath("$.error").value("There isn't a stock with this id : wrong6"));
+				.andExpect(MockMvcResultMatchers.jsonPath("$.error").value("There isn't a stock with this id : wrongTestId"));
 	}
 	
 	@Test
@@ -97,10 +97,10 @@ public class QuoteControllerTest {
 	void shouldNotListByStockId() throws Exception {
 		Mockito.when(stockService.getStockList()).thenReturn(stockList);
 
-		mockMvc.perform(MockMvcRequestBuilders.get("/quote/wrong6").contentType(MediaType.APPLICATION_JSON))
+		mockMvc.perform(MockMvcRequestBuilders.get("/quote/wrongTestId").contentType(MediaType.APPLICATION_JSON))
 				.andExpect(MockMvcResultMatchers.status().is(404))
 				.andExpect(MockMvcResultMatchers.jsonPath("$.field").value("stockId"))
-				.andExpect(MockMvcResultMatchers.jsonPath("$.error").value("No quotes found for the stock : wrong6"));
+				.andExpect(MockMvcResultMatchers.jsonPath("$.error").value("No quotes found for the stock : wrongTestId"));
 	}
 
 }
